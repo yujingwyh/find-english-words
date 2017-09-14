@@ -74,5 +74,7 @@ module.exports = async function (options = {}) {
     writeWords(words, options.outpath);
   }
 
+  ora('finished find english words').succend();
+
   return words;
 };
