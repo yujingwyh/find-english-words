@@ -47,7 +47,7 @@ function writeWords(words, outpath) {
  * 在内容或者文件中找出英语单词
  * @param options {Object} 选项
  * @param [options.content] {string} 内容
- * @param [options.src] {Array|string} globs 文件源
+ * @param [options.src] {Array|string} glob 文件源
  * @param [options.order] {string} 排序 默认按字母排序 为frequency按出现的频率排序
  * @param [options.outpath] {string} 输出的文件路径
  * @return {Array} words
