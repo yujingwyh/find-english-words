@@ -1,3 +1,2 @@
-/node_modules
-/.idea
-/web/dist
+node_modules
+.idea

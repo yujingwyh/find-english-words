@@ -10,7 +10,7 @@ $ npm install find-english-words --save-dev
 ## 使用
 
 ```
-var findEnglishWords = require('find-english-words');
+const findEnglishWords = require('find-english-words');
 
 findEnglishWords({
   src:['./node_modules/**/*'],

@@ -1,6 +1,6 @@
 {
   "name": "find-english-words",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "在内容或者文件中找出英语单词",
   "author": "yujingwyh yujingwyh@163.com",
   "license": "MIT",
@@ -8,14 +8,21 @@
     "type": "git",
     "url": "https://github.com/yujingwyh/find-english-words"
   },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "lib",
+    "example"
+  ],
   "scripts": {},
   "devDependencies": {},
   "dependencies": {
     "line-reader": "^0.4.0",
     "map-stream": "^0.0.7",
-    "ora": "^1.3.0",
+    "ora": "^4.0.3",
     "path": "^0.12.7",
     "promise": "^8.0.1",
-    "vinyl-fs": "^2.4.4"
+    "vinyl-fs": "^3.0.3"
   }
 }
