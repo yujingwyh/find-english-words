@@ -956,7 +956,7 @@ buzz   v.嗡嗡叫 n.嗡嗡声
 by   prep.在...旁边，按照
 bygone   n.已往的，过时的
 bypass   n.旁道，分路
-by-product   n.副产品 
+by-product   n.副产品
 cab   n.出租汽车
 cabbage   n.卷心菜；圆白菜
 cabin   n.小屋，船舱
@@ -2669,7 +2669,7 @@ eyeball   n.眼球
 eyebrow   n.眉毛
 eyeglass   n.眼镜
 eyelid   n.眼睑
-eyesight   n.视力 
+eyesight   n.视力
 fable   n.寓言
 fabric   n.织物，结构，组织
 fabricate   v.制作，捏造
@@ -3529,7 +3529,7 @@ hypothesis   n.假设，前提
 hypothetical   adj.假设的
 hysteria   n.歇斯底里，癔病
 hysteric   adj.亢奋的
-i   .我
+i   pron.我
 ice   n.冰，冰块
 ice-cream   n.冰淇淋
 ice-bound   adj.冰封的
@@ -7170,7 +7170,7 @@ thankful   adj.感谢的，欣慰的
 thanks   n.感谢 int.谢谢
 thanksgiving day   ]n.感恩节
 that   adj.那,那个 adv.那么
-the   (定冠词)那，这
+the   art.那，这
 theatre   n.剧场，戏剧，舞台
 theatrical   adj.戏剧的
 theft   n.偷盗
@@ -7242,7 +7242,7 @@ thumb   n.拇指
 thumbtack   n.按钉，图钉
 thunder   n.雷 v.隆隆响
 thunderstorm   n.雷雨
-thursday  ]n.星期四
+thursday   n.星期四
 thus   adv.如此，这样，因而
 tick   n.滴答声 v.打勾号
 ticket   n.票，标签，价目单

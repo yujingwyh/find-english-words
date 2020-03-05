@@ -1,7 +1,7 @@
 {
   "name": "find-english-words",
-  "version": "1.0.3",
-  "description": "在内容或者文件中找出英语单词",
+  "version": "1.0.4",
+  "description": "英语单词提取",
   "author": "yujingwyh yujingwyh@163.com",
   "license": "MIT",
   "repository": {

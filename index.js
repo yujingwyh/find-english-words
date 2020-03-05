@@ -17,7 +17,7 @@ function writeWords(words, outPath) {
 
   words.forEach(function (word, index) {
     spinner.text = `write english words（${index + 1}）`;
-    writeStream.write(getFull(word.word, 20) + getFull(word.frequency, 10) + word.explain + '\n');
+    writeStream.write(getFull(word.word, 19) + getFull(word.frequency, 10) + word.explain + '\n');
   });
   spinner.succeed();
   writeStream.end();
@@ -26,7 +26,7 @@ function writeWords(words, outPath) {
     const length = String(word).replace(/[^\x00-\xff]/g, 'aa').length;
     const supplement = total - length;
 
-    return supplement > 0 ? word + new Array(supplement).join(' ') : word;
+    return supplement > 0 ? word + new Array(supplement + 1).join(' ') : word;
   }
 }
 
