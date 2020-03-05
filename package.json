@@ -1,6 +1,6 @@
 {
   "name": "find-english-words",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "在内容或者文件中找出英语单词",
   "author": "yujingwyh yujingwyh@163.com",
   "license": "MIT",
@@ -12,8 +12,7 @@
     "LICENSE",
     "README.md",
     "index.js",
-    "lib",
-    "example"
+    "lib"
   ],
   "scripts": {},
   "devDependencies": {},
