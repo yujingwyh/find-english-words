@@ -7,5 +7,5 @@ const path = require('path');
 findEnglishWords({
   src:['../node_modules/**/*'],
   order:'frequency',
-  outpath:'./words.txt'
+  output:'./words.txt'
 });

@@ -6,17 +6,15 @@ const getEnglishWords = require('./lib/get-english-words');
 
 
 //写文件
-function writeWords(words, outPath) {
+function writeWords(words, output) {
   const spinner = ora('write english words').start();
 
-  const writeStream = fs.createWriteStream(outPath, {
-    defaultEncoding: 'utf8'
-  });
+  const writeStream = fs.createWriteStream(output);
 
   writeStream.write(getFull('词', 20) + getFull('频率', 10) + '释义\n');
 
   words.forEach(function (word, index) {
-    spinner.text = `write english words（${index + 1}）`;
+    spinner.text = `write english words(${index + 1})`;
     writeStream.write(getFull(word.word, 19) + getFull(word.frequency, 10) + word.explain + '\n');
   });
   spinner.succeed();
@@ -36,7 +34,7 @@ function writeWords(words, outPath) {
  * @param [options.content] {string} 内容
  * @param [options.src] {Array|string} glob 文件源
  * @param [options.order] {string} 排序 默认按字母排序 为frequency按出现的频率排序
- * @param [options.outpath] {string} 输出的文件路径
+ * @param [options.output] {string} 输出的文件路径
  * @return {Array} words
  */
 module.exports = async function (options = {}) {
@@ -44,8 +42,8 @@ module.exports = async function (options = {}) {
   const englishWords = await getEnglishWords(options, contents);
 
 
-  if (options.outpath) {
-    writeWords(englishWords, options.outpath);
+  if (options.output) {
+    writeWords(englishWords, options.output);
   }
 
   console.log('√ finished find english words');

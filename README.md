@@ -15,7 +15,7 @@ const findEnglishWords = require('find-english-words');
 findEnglishWords({
   src:['./node_modules/**/*'],
   order:'frequency',
-  outpath:'./words.txt'
+  output:'./words.txt'
 });
 
 /*
@@ -59,7 +59,7 @@ Default: `null`
 
 排序，默认按字母排序，值为frequency按出现的频率排序
 
-##### outpath
+##### output
 
 Type: `string`<br>
 Default: `null`
